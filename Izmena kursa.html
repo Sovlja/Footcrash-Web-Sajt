@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatibile" content="ie-eadge">
+  <link rel="stylesheet" href="./Izmena kursa - styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="#" rel="stylesheet">
+  <title>Kurs 01 - izmena</title>
+  <link rel="icon" href="./images/logo-icon.png" type="image/jpeg" />
+</head>
+
+<body>
+  <div class="register-box">
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2 class="pop-up-heading">Napravi svoj Footcrash nalog!</h2>
+        <a class="close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg></a>
+        <br>
+        <hr class="hr-pop-up">
+        <br>
+        <div class="content">
+          <img src="./images/Logo-boom - cropped.png" id="logo-popup">
+          <form action="action_page.php">
+            <div class="container">
+              <label for="username"><b>Korisničko ime</b></label>
+              <input type="text" class="fieldy" placeholder="Unesite korisničko ime" name="username" id="username"
+                required>
+
+              <label for="your-name"><b>Ime</b></label>
+              <input type="text" class="fieldy" placeholder="Vaše ime" name="your-name" id="your-name" required>
+
+              <label for="your-surname"><b>Prezime</b></label>
+              <input type="text" class="fieldy" placeholder="Vaše prezime" name="your-surname" id="your-surname"
+                required>
+
+              <label for="email"><b>Email adresa</b></label>
+              <input type="text" class="fieldy" placeholder="Unesite email adresu" name="email" id="email" required>
+
+              <label for="psw"><b>Lozinka</b></label>
+              <input type="password" class="fieldy" placeholder="Vaša lozinka" name="psw" id="psw" required>
+
+              <label for="psw-repeat"><b>Potvrdite lozinku</b></label>
+              <input type="password" class="fieldy" placeholder="Potvrdite lozinku" name="psw-repeat" id="psw-repeat"
+                required>
+
+              <label for="address"><b>Adresa stanovanja</b></label>
+              <input type="text" class="fieldy" placeholder="Unesite Vašu adresu" name="address" id="address" required>
+
+              <label for="birth-date"><b>Datum rođenja</b></label>
+              <input type="datetime-local" class="fieldy" placeholder="Vaš datum rođenja" name="birth-date"
+                id="birth-date" required>
+
+
+              <label for="phone-number"><b>Broj telefona</b></label>
+
+              <input type="text" class="fieldy" placeholder="Vaš broj telefona" name="phone-number" id="phone-number"
+                required>
+              <br>
+
+
+              <input type="checkbox" required>Ako kliknete na dugme Registrujte se, prihvatate naše<a href="#"
+                id="terms_privacy"> Uslove korišćenja, Politiku o podacima i Politiku o kolačićima</a>.
+              <button type="submit" class="registerbtn">Registrujte se!</button>
+            </div>
+
+            <div class="container-signin">
+              <p>Imate Footcrash nalog?<a href="#sign-in" id="prijavite-se"> Prijavite se</a>!</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="login-box">
+    <div id="sign-in" class="overlay">
+      <div class="popup">
+        <h2 class="pop-up-heading">Prijavite se na svoj nalog!</h2>
+        <a class="close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg></a>
+        <br>
+        <hr class="hr-pop-up">
+        <br>
+        <div class="content">
+          <img src="./images/Logo-boom - cropped.png" id="logo-popup">
+          <form action="action_page.php">
+            <div class="container">
+              <label for="username"><b>Korisničko ime</b></label>
+              <input type="text" class="fieldy" placeholder="Unesite korisničko ime" name="username" id="username"
+                required>
+
+              <label for="psw"><b>Lozinka</b></label>
+              <input type="password" class="fieldy" placeholder="Vaša lozinka" name="psw" id="psw" required>
+              <br>
+              <button type="submit" class="registerbtn">Prijavite se!</button>
+
+              <div class="container-signin">
+                <p>Nemate Footcrash nalog?<a href="#popup1" id="sign-in"> Registrujte se</a>!</p>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="header-homepage">
+    <div class="logo-hyperlink">
+      <a class="logo-a" href="./Footcrash - početna strana.html">
+        <img src="./images/Logo-boom - cropped.png" id="logo-boom"></a>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="./Footcrash - početna strana.html" id="home">Početna</a></li>
+        <li><a href="./Korisnici.html" id="course-go">Korisnici</a></li>
+        <li><a href="#happenings" id="system-users">Dešavanja</a></li>
+        <li><a href="#about-us" id="about">O nama</a></li>
+        <li><a href="#contact-us" id="contact">Kontakt</a></li>
+        <li><a href="./Footcrash - shop.html" id="shop">Shop</a></li>
+      </ul>
+    </nav>
+    <div id="search-bar">
+      <input type="search" class="search-site" placeholder=" Pretraži sajt..." name="search-site" id="search-site">
+    </div>
+    <div class="search-icon">
+      <a href="" id="search-results">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi-bi-search"
+          viewBox="0 0 16 16">
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+        </svg></a>
+    </div>
+    <div class="cart-ico">
+      <i class="bibi-cart-fill"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor"
+          class="bi bi-cart-fill" viewBox="0 0 16 16">
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </svg></i>
+    </div>
+    <nav>
+      <ul class="nav-list-sign">
+        <li><a href="#popup1" id="register">Registracija</a></li>
+        <li><a href="#sign-in" id="login">Prijava</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br><br><br><br><br><br>
+  <main class="main-cat1">
+    <div class="wrapper">
+      <div class="user-container">
+        <div class="first-column-user">
+          <div class="first-column-up">
+            <img class="profile-pic" src="./images/stops-img.jpg">
+          </div>
+          <div class="first-column-bottom">
+
+          </div>
+        </div>
+        <div class="second-column-user">
+          <form id="change-user-form">
+            <fieldset>
+              <legend id="form-legend">Kurs 01 - izmena</legend>
+              <br>
+              <br>
+              <br>
+              <br>
+              <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Naziv kursa</label>
+                <input type="text" id="disabledTextInput" name="course-name" class="form-control" placeholder="Kurs 01">
+              </div>
+              <div class="mb-3">
+                <label for="disabledNumberInput" class="form-label">ID kursa</label>
+                <input type="number" id="disabledNumberInput" name="course-id" class="form-control"
+                  placeholder="11111110101" disabled>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="disabledNumberInput" class="form-label">Broj korisnika koji su prešli kurs</label>
+                <input type="number" id="disabledNumberInput" name="users-sum" class="form-control" placeholder="6"
+                  disabled>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="disabledNumberInput" class="form-label">Prosečna ocena</label>
+                <input type="number" id="disabledNumberInput" name="average-grade" class="form-control"
+                  placeholder="4.69" disabled>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Autor kursa</label>
+                <input type="text" id="disabledTextInput" class="form-control" name="course-author"
+                  placeholder="Jovan Dimitrijević">
+              </div>
+              <div class="mb-3">
+                <label for="selectme" class="form-label">Jezik</label>
+                <select id="selectme" class="form-control" name="language" placeholder="engleski, srpski">
+                  <option selected disabled>Izaberi opciju</option>
+                  <option>Engleski</option>
+                  <option>Srpski</option>
+                </select>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="selectme" class="form-label">Kategorija</label>
+                <select id="selectme" class="form-control" name="category">
+                  <option selected disabled>Izaberi opciju</option>
+                  <option>Kategorija 01 - Beginner</option>
+                  <option>Kategorija 02 - Advanced</option>
+                  <option>Kategorija 03 - Professional</option>
+                </select>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Broj lekcija</label>
+                <input type="text" id="disabledTextInput" class="form-control" name="tutorials-sum" placeholder="15">
+              </div>
+              <div class="mb-3">
+                <label for="disabledNumberInput" class="form-label">Cena</label>
+                <input type="number" id="disabledNumberInput" class="form-control" name="price" placeholder="25.00 €">
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Sertifikacija:
+                  <label for="sertification" class="form-label1">Da</label>
+                  <input type="radio" id="sertification1" name="yes" class="form-control">
+                  <label for="sertification" class="form-label1">Ne</label>
+                  <input type="radio" id="sertification2" name="no" class="form-control">
+                </label>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="textarea" class="form-label">Opis</label>
+                <br>
+                <textarea id="textarea" class="form-control" placeholder="Opis kursa..." rows="10" cols="50"></textarea>
+              </div>
+              <br>
+              <div class="mb-4">
+                <button type="button" class="btn-btn-primary"><a href="./Kurs 01 - Kočenja.html"
+                    class="back-button">Nazad</a></button>
+                <button type="submit" class="btn-btn-primary"><a href="#" class="back-button">Sačuvaj</a></button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <div class="footer-basic">
+    <footer>
+      <div class="social"><a href="https://www.instagram.com/footcrash.ns/"><img class="footer-img"
+            src="./images/Instagram-Logo-PNG-Image.png"><i class="icon ion-social-instagram"></i></a><a
+          href="https://www.facebook.com/zmajevakuglica/"><img class="footer-img" src="./images/facebook-icon.png"><i
+            class="icon ion-social-facebook"></i></a><a href="https://www.facebook.com/IceNewNow/"><img
+            class="footer-img" src="./images/inn-modified.png"><i class="icon ion-social-twitter"></i></a><a
+          href="https://www.youtube.com/channel/UCVq4EmjFocWg6kedgxHlnSw"><img class="footer-img"
+            src="./images/youtube-logo.png"><i class="icon ion-social-youtube"></i></a></div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="./Footcrash - Kategorija 01.html">Nazad na vrh</a></li>
+        <li class="list-inline-item"><a href="https://www.youtube.com/c/GlobalIce">Global Ice Community</a></li>
+        <li class="list-inline-item"><a href="#">Uslovi korišćenja</a></li>
+        <li class="list-inline-item"><a href="#">Politika privatnosti</a></li>
+      </ul>
+      <p class="copyright">© 2020 - 2021 Footcrash | All Rights Reserved </p>
+    </footer>
+  </div>
+</body>
+
+</html>
